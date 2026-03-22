@@ -1,0 +1,35 @@
+ARTIFICIAL INTELLIGENCE QUICK REFERENCE GUIDE
+
+1. MACHINE LEARNING BASICS
+Machine learning (ML) is a subset of AI that enables computers to learn from data
+without being explicitly programmed. The three main types are:
+- Supervised Learning: trains on labeled data. Examples: spam detection, image classification.
+- Unsupervised Learning: finds hidden patterns in unlabeled data. Examples: clustering, anomaly detection.
+- Reinforcement Learning: agent learns by rewards and penalties. Examples: game AI, robotics.
+
+2. DEEP LEARNING
+Deep learning uses neural networks with many layers to model complex patterns.
+- CNN: best for image data. Detects edges, textures, shapes.
+- RNN/LSTM: best for sequential data like text and time-series.
+- Transformer: dominant architecture today. Powers GPT, Claude, BERT.
+
+3. RETRIEVAL-AUGMENTED GENERATION (RAG)
+RAG grounds an LLM's responses in external documents.
+Step 1 - Ingest: split documents into chunks, convert to vector embeddings, store in vector DB.
+Step 2 - Retrieve: embed the user question, find the most similar chunks.
+Step 3 - Generate: inject chunks into the prompt, LLM answers from real documents.
+Benefits: reduces hallucinations, allows knowledge updates without retraining.
+
+4. LARGE LANGUAGE MODELS
+LLMs are neural networks trained on massive text data.
+- GPT-4o (OpenAI): strong general-purpose model
+- Claude 3 (Anthropic): strong at reasoning and long-context tasks
+- LLaMA 3 (Meta): open-source, can run locally
+Key parameters: Temperature controls randomness. 0 = precise, 1 = creative.
+
+5. VECTOR DATABASES
+Vector databases store and search embeddings by meaning, not keywords.
+- ChromaDB: lightweight, local, great for prototypes
+- Pinecone: managed cloud, scales to billions of vectors
+- FAISS: Meta library, very fast for local use
+Similarity is measured by cosine similarity between vectors.
