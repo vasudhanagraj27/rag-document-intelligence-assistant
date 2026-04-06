@@ -1,4 +1,4 @@
-# RAG Assistant
+# RAG-Based Document Intelligence Assistant
 
 A Retrieval-Augmented Generation (RAG) app built with LangChain, ChromaDB, and Groq (Llama 3.3 70B).
 
