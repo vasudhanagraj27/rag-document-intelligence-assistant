@@ -3,7 +3,7 @@
 A Retrieval-Augmented Generation (RAG) application for document-based question answering using LangChain, ChromaDB, and Groq (Llama 3.3 70B).
 
 ## What it does
-Upload PDF or TXT documents and ask questions — the system retrieves relevant context and generates accurate, source-grounded answers strictly from the provided documents.
+Upload PDF or TXT documents and ask questions - the system retrieves relevant context and generates accurate, source-grounded answers strictly from the provided documents.
 
 ## Tech Stack
 - **LLM**: Llama 3.3 70B via Groq  
